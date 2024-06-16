@@ -6,6 +6,8 @@ import Header from './compon/Header';
 import Footer from './compon/Footer';
 import Hom from './compon/Hom';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Acadamic from './compon/Acadamic';
+import Administraion from './compon/Administraion';
 
 
 const App = () => {
@@ -19,6 +21,8 @@ const App = () => {
         <Route path="/" element={<Hom/>}></Route>
         <Route path="/About" element={<About/>}></Route>
         <Route path='/Contact'element={<Contact/>}></Route>
+        <Route path='/Acadamic'element={<Acadamic/>}></Route>
+        <Route path='/Administraion'element={<Administraion/>}></Route>
         </Routes>
       </main>
       <Footer/>

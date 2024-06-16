@@ -4,14 +4,15 @@ import React from 'react';
 const Header = () => {
   return (
     <header>
-      <h2 className='top'>Green School concept</h2>
+      <h3 className='top'>The Place where life is built without bring limited to knoweldge</h3>
       <img src='/images/logo.jpg'alt="School Logo" style={{ height: '50px' }} />
-      <h1>Athapattukanda Vidyalaya Matara</h1>
+      <h1>Athapattukanda Collage</h1>
       <nav>
         <ul>
           <li><a href="/">Home</a></li>
           <li><a href="/about">About</a></li>
           <li><a href="/acadamic">Acadamic</a></li>
+          <li><a href="/Administration">Administration</a></li>
           <li><a href="/contact">Contact</a></li>
           
         </ul>
