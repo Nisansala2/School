@@ -51,32 +51,42 @@ footer {
   text-align: left;
   text-indent: 50px;
 }
-.about-image img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-  margin-right: 20px;
-}
+
 .about-container{
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 20px;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 40px;
 }
 .about-text{
-  max-width: 600%;
+  flex: 1;
+  max-width: 60%;
+  padding-right: 20px;
+
+
 }
 .about-text h2{
   color: #4A4A4A;
-  font-size: 34px;
-  margin-bottom: 16px;
+  font-size: 50px;
 }
 .about-text p{
+font-size: 50px;
   max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-  margin-right: 20px;
+  color: #000;
+  
 }
+.about-image{
+  flex:1;
+  max-width:50%;
+}
+.about-image img {
+  flex: 1;
+  max-width: 60%;
+  border-radius: 10px;
+}
+
+
 @keyframes fadeIn {
   from {
       opacity: 0;
@@ -181,14 +191,11 @@ nav a.clear:active {
 .home-page{
   background-image: url('C:\Users\Gamachchige\Desktop\react_new project\school\src\images\gschooln.jpg');
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-size: cover;
-  background-position: center;
   height: auto;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   filter: blur(0.3px); 
-  padding: 100px 40px;
+  padding: 100px 20px;
+  background-repeat: repeat;
 }
   
 
