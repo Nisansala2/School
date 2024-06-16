@@ -5,7 +5,7 @@ const Header = () => {
   return (
     
     
-    <header>
+    <header >
         <h3 className='top' >The Place where life is built without bring limited to knoweldge</h3>
           <div className='header'>
             <div className='top-image'>

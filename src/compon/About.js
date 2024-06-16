@@ -4,12 +4,19 @@ import React from 'react';
 const About = () => {
   return (
     <div>
-      <h2>A Green School</h2>
-      <h4>Athpattukanda Vidyalaya <br/> Deiyandra<br/> Matara</h4>
-      <p className='paragraph'>Athapathukanda Viddayala which was estabilished in the year 1952.It is located in Athapattukanda rural area of Deiyandra town,Matara distric
-        Sourthen province.Eventhough it is started with only fifty students and a staff of two teachers.<br/> It has been started primarly for the rural children.
-        Currently this school is developing and has become a school operating under green concept.
-      </p>
+      <div className="about-container">
+      <div className='about-image'>
+     <img src='/images/amp.jpg' alt='school'  style={{ maxWidth: '100%', height: '50%' }}/>
+     </div >
+     <div className='text-about'>
+     <h2>Vision</h2>
+     <p>To endow the society with a well-rounded child<br/> who can ovrcome challenges</p>
+     <br/>
+     <h2>Mission</h2>
+      <p>To give birth to a child equipped with knoweldege,<br/> qualities and skill suitablr for the future worldS</p>      
+      </div>
+    </div>
+     
     </div>
   );
 }
