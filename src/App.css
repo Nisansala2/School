@@ -10,17 +10,27 @@ header {
 }
 
 nav ul {
-  list-style: square;
+  list-style: none;
   display: flex;
-  gap: 3rem;
+  gap: 2rem;
 }
 
 nav a {
   color:white;
   text-decoration: none;
-  font-size: 30px;
-  background-color: black;
-  border-radius: 4px;
+  font-size: 20px;
+  background-color:green;
+  border-radius: 2px;
+  padding: 6px;
+  border: saddlebrown;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style:bold ;
+  border-style: groove;
+  background-position: inherit;
+  background-size: 3px;
+
 }
 
 footer {
@@ -62,17 +72,97 @@ footer {
   margin-bottom: 16px;
 }
 .about-text p{
-  color: #4A4A4A;
-  font-size: 24px;
-  line-height: 1.6;
-  margin-bottom: 16px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-right: 20px;
 }
 .headding{
-  color: green;
+  color:mediumvioletred;
   text-align: center;
 
 }
 .top{
-  background-color: aqua;
+  background-color: rgb(8, 89, 8);
   color: black;
+  text-align: center;
+  font-style: italic;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+nav a:hover {
+  background-color: magenta;
+  color: #fff;
+}
+
+nav a:active {
+  background-color: maroon;
+}
+button:nth-child(4n) {
+  background-color: #ff9800;
+  color: #fff;
+}
+
+nav a:nth-child(4n):hover {
+  background-color: #e68900;
+}
+
+nav a:nth-child(4n):active {
+  background-color: #cc7a00;
+}
+
+nav a.clear {
+  background-color: #f44336;
+  color: #fff;
+}
+
+nav a.clear:hover {
+  background-color: #d32f2f;
+}
+
+nav a.clear:active {
+  background-color: #c62828;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: saddlebrown;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.top-image{
+  display: flex;
+  align-items: center;
+}
+.logo{
+  height: 50px;
+  margin-right: 15px;
+}
+.nav{
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-list{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+.nav-item{
+  text-decoration: none;
+  color: #a7ca0e;
+  font-weight: bold;
+}
+.nav item a:hover{
+  color: #c62828;
+}
+.top-name{
+  font-size: 50px;
+  color:wheat;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
