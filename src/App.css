@@ -22,7 +22,7 @@ nav a {
   background-color:green;
   border-radius: 2px;
   padding: 6px;
-  border: saddlebrown;
+  border: rgb(192, 119, 68);
   cursor: pointer;
   transition: background-color 0.3s ease;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -44,12 +44,13 @@ footer {
 }
 
 .paragraph {
-  max-width: 600%;
-  color: rgb(8, 8, 30);
-  font-size: 18px;
+  
+  color: darkblue;
+  font-size: 22px;
   line-height: 1.6;
-  text-align: left;
+  text-align: justify;
   text-indent: 50px;
+  font-weight: bold;
 }
 
 .about-container{
@@ -59,30 +60,31 @@ footer {
   padding: 40px;
   gap: 40px;
 }
-.about-text{
+.text-about{
   flex: 1;
   max-width: 60%;
-  padding-right: 20px;
+  padding-right: 80px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 
 }
-.about-text h2{
-  color: #4A4A4A;
-  font-size: 50px;
+.text-about h2{
+  color: #a8ab1f;
+  font-size: 40px;
 }
-.about-text p{
-font-size: 50px;
+.text-about p{
+font-size: 30px;
   max-width: 100%;
   color: #000;
   
 }
 .about-image{
   flex:1;
-  max-width:50%;
+  max-width:80%;
 }
 .about-image img {
   flex: 1;
-  max-width: 60%;
+  max-width: 80%;
   border-radius: 10px;
 }
 
@@ -96,11 +98,11 @@ font-size: 50px;
   }
 }
 .headding{
-  color:black;
+  color:white;
   text-align: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 57px;
   animation: fadeIn 5s ease-in-out;
 
 }
@@ -151,7 +153,7 @@ nav a.clear:active {
   align-items: center;
   justify-content: space-between;
   padding: 3px 10px;
-  background-color: saddlebrown;
+  background-color: rgb(167, 76, 12);
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 .top-image{
@@ -190,12 +192,14 @@ nav a.clear:active {
 }
 .home-page{
   background-image: url('C:\Users\Gamachchige\Desktop\react_new project\school\src\images\gschooln.jpg');
-  display: flex;
-  height: auto;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  filter: blur(0.3px); 
+  height: 130px;
+  box-shadow: 0 2px 4px rgba(219, 214, 214, 0.1);
+  filter: blur(0.6px); 
   padding: 100px 20px;
-  background-repeat: repeat;
+}
+.hfour{
+  color: whitesmoke;
+  font-size: 18px;
 }
   
 
