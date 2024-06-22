@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
 
 const Administraion = () => {
   return (
-    <div>
-      <h1>haii</h1>
+    <div className='admin'>
+      <h1>Department of Admistraion</h1>
+
+
     </div>
-  )
+  );
 }
 export default  Administraion;

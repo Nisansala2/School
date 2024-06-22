@@ -6,7 +6,7 @@ const Header = () => {
     
     
     <header >
-        <h3 className='top' >The Place where life is built without bring limited to knoweldge</h3>
+        <h2 className='top' >The Place where life is built without bring limited to knoweldge</h2>
           <div className='header'>
             <div className='top-image'>
         <img src='/images/logo.jpg'alt="School Logo" style={{ height: '100px' } } className='logo'/>
@@ -18,8 +18,9 @@ const Header = () => {
           <li className='nav-item'><a href="/">Home</a></li>
           <li className='nav-item'><a href="/about">About</a></li>
           <li className='nav-item'><a href="/acadamic">Acadamic</a></li>
-          <li className='nav-item'><a href="/Administration">Administration</a></li>
+          <li className='nav-item'><a href="/Administraion">Administration</a></li>
           <li className='nav-item'><a href="/contact">Contact</a></li>
+          <li className='nav-item'><a href="/Achivments">Archivements</a></li>
           </ul>
       </nav>
       </div>

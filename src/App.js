@@ -8,6 +8,8 @@ import Hom from './compon/Hom';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Acadamic from './compon/Acadamic';
 import Administraion from './compon/Administraion';
+import './Footer.css';
+import './Header.css';
 
 
 const App = () => {
