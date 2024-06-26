@@ -3,92 +3,6 @@ body {
   font-family: Arial, sans-serif;
 }
 
-header {
-  background: white;
-  color: sienna;
-  padding: 30px;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 2rem;
-}
-
-nav a {
-  color:white;
-  text-decoration: none;
-  font-size: 20px;
-  background-color:rgb(186, 102, 42);
-  border-radius: 2px;
-  padding: 6px;
-  border: rgb(192, 119, 68);
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-style:bold ;
-  border-style: groove;
-  background-position: inherit;
-  background-size: 3px;
-
-}
-
-footer2 {
-  background: grey;
-  color: #fff;
-  text-align: center;
-  padding: 10px;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-}
-
-.paragraph2 {
-  
-  color: darkblue;
-  font-size: 22px;
-  line-height: 1.6;
-  text-align: justify;
-  text-indent: 50px;
-  font-weight: bold;
-}
-
-.about-container{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 40px;
-  gap: 40px;
-}
-.text-about{
-  flex: 1;
-  max-width: 60%;
-  padding-right: 80px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-
-}
-.text-about h2{
-  color: #a8ab1f;
-  font-size: 40px;
-}
-.text-about p{
-font-size: 30px;
-  max-width: 100%;
-  color: #000;
-  
-}
-.about-image{
-  flex:1;
-  max-width:80%;
-}
-.about-image img {
-  flex: 1;
-  max-width: 80%;
-  border-radius: 10px;
-}
-
-
 @keyframes fadeIn {
   from {
       opacity: 0;
@@ -102,68 +16,68 @@ font-size: 30px;
   text-align: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 62px;
 
 }
 
 .top{
-  background-color: rgb(65, 198, 65);
-  color:white;
+ 
+  color:#eae3e3;
   text-align: center;
   font-style: italic;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40;
 }
-nav a:hover {
-  background-color: rgb(37, 176, 46);
-  color: #fff;
-}
-
-nav a:active {
-  background-color: maroon;
-}
-button:nth-child(4n) {
-  background-color: #ff9800;
-  color: #fff;
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
 }
 
-nav a:nth-child(4n):hover {
-  background-color: #e68900;
+.nav a {
+  color:white;
+  text-decoration: none;
+  font-size: 22px;
+  
+  border-radius: 2px;
+  padding: 6px;
+  
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style:bold ;
+  
+
+}
+.nav a:hover {
+ 
+  color: #53d788;
 }
 
-nav a:nth-child(4n):active {
-  background-color: #cc7a00;
-}
 
-nav a.clear {
-  background-color: #f44336;
-  color: #fff;
-}
 
-nav a.clear:hover {
-  background-color: #d32f2f;
-}
 
-nav a.clear:active {
-  background-color: #c62828;
-}
 
 .header{
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 3px 5px;
-  background-color: white;
+  background-color: gray;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  height: 43px;
+  height: 48px;
 
 }
 .top-image{
   display: flex;
   align-items: center;
+  padding: 60px 70px;
 }
 .logo{
+ 
   height: 50px;
   margin-right: 15px;
+  max-width: 80px;
 }
 .nav{
   flex-grow: 1;
@@ -179,29 +93,53 @@ nav a.clear:active {
 }
 .nav-item{
   text-decoration: none;
-  color: #a7ca0e;
+  color: green;
   font-weight: bold;
 }
-.nav item a:hover{
-  color: #c62828;
-}
+
 .top-name{
-  font-size: 40px;
-  color:rgb(176, 128, 16);
+  font-size: 30px;
+  color:gold;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: bold;
 }
 
-.admin{
-  background-image: url('C:\Users\Gamachchige\Desktop\react_new project\school\src\images\principle.jpeg');
-  background-attachment: fixed;
-  height: 50px;
-}
+
 .discover-button {
-  background-color: #4CAF50; /* Green background */
-  border: none; /* Remove borders */
-  color: white; /* White text */
-  padding: 15px 32px; /* Add some padding */
+  background-color: gold; /* Green background */
+  border: 6px; /* Remove borders */
+  color: #0b0000; /* White text */
+  padding: 15px 20px; /* Add some padding */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Get the element to align properly */
+  font-size: 16px; /* Increase font size */
+  margin: 2px 2px; /* Add some margin */
+  cursor: pointer; /* Add a pointer on hover */
+  border-radius: 4px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition for hover */
+  font-size: bold;
+  
+}
+.discover-button a {
+  text-decoration: none; /* Remove underline from link */
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
+  color: #0b0000;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 21px;
+}
+
+.discover-button:hover {
+  background-color: #a06845; /* Darker green on hover */
+  
+}
+.sign-button{
+  background-color: gold; /* Green background */
+  border: 10px; /* Remove borders */
+  color: black; /* White text */
+  padding: 15px 20px; /* Add some padding */
   text-align: center; /* Center the text */
   text-decoration: none; /* Remove underline */
   display: inline-block; /* Get the element to align properly */
@@ -209,20 +147,36 @@ nav a.clear:active {
   margin: 4px 2px; /* Add some margin */
   cursor: pointer; /* Add a pointer on hover */
   border-radius: 4px; /* Rounded corners */
-  transition: background-color 0.3s ease; /* Smooth transition for hover */
+  transition: background-color 0.3s ease;
+  justify-content: center;
+  align-items: center;
+  font-size: bold;
+}
+.sign-button a {
+  text-decoration: none; /* Remove underline from link */
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
+  color: #0b0000;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 21px;
 }
 
-.discover-button:hover {
-  background-color: #45a049; /* Darker green on hover */
+
+.sign-button:hover {
+  background-color: #a06845; 
+}
+.button-contain {
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
   
 }
 
 
-.footer {
-  background-color: #1a1a3d; /* Dark blue color */
-  color: white;
-  padding: 40px 0;
-}
+
 
 
 

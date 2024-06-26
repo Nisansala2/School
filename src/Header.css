@@ -19,10 +19,12 @@
   }
   .about-page{
     background-image: url('C:\Users\Gamachchige\Desktop\react_new project\school\src\images\about.jpg');
+    background-attachment: fixed;
     padding: 50px;
     color: white;
     font-size: 30px;
     text-align: center;
+    background-position: 100px;
   }
   .detail{
     display: flex;

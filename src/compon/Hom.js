@@ -1,5 +1,7 @@
 // src/components/Home.js
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 
 const Hom = () => {
@@ -9,13 +11,22 @@ const Hom = () => {
     <div className='home-page'>
       <br/>
       <br/><br/>
-    <h2 className='headding'>Welcome to Green School</h2>
-      <h4 className='hfour'>Athpattukanda Vidyalaya <br/> Deiyandra<br/> Matara</h4>
-      <button className='discover-button' >
-            Discover
-        </button>
+      <br/>
+    <h1 className='headding'>Welcome to Green School..!</h1>
+    <h2 className='top' >The Place where life is built without bring limited to knoweldge</h2>
+    <div className='button-contain'>
+      <button className='discover-button' ><Link to="/About" className='lbutton'>Click More About here</Link>
+        </button><br/>
+        <button className='sign-button'><Link to ="/Acadamic">Login to Learning</Link></button>
       
       <br/>
+      </div>
+
+        <div className="button-container">
+          
+          
+        </div>
+    
     </div>
     
     

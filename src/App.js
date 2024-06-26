@@ -10,6 +10,11 @@ import Acadamic from './compon/Acadamic';
 import Administraion from './compon/Administraion';
 import './Footer.css';
 import './Header.css';
+import './About.css';
+import './Acadamic.css';
+import './Contact.css';
+import './Admin.css';
+import Achivments from './compon/Achivments';
 
 
 const App = () => {
@@ -25,6 +30,7 @@ const App = () => {
         <Route path='/Contact'element={<Contact/>}></Route>
         <Route path='/Acadamic'element={<Acadamic/>}></Route>
         <Route path='/Administraion'element={<Administraion/>}></Route>
+        <Route path='/Achivments'element={<Achivments/>}></Route>
         </Routes>
       </main>
       <Footer/>

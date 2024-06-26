@@ -6,12 +6,13 @@ const Header = () => {
     
     
     <header >
-        <h2 className='top' >The Place where life is built without bring limited to knoweldge</h2>
+        
           <div className='header'>
             <div className='top-image'>
-        <img src='/images/logo.jpg'alt="School Logo" style={{ height: '100px' } } className='logo'/>
+        <img src='/images/logo.jpg'alt="School Logo" style={{ height: '70px' } } className='logo'/>
         </div>
-        <h1 className='top-name'>Athapattukanda Collage</h1>
+        <h1 className='top-name'>Athapaththkanda Collage</h1>
+        
         
        <nav className='nav'>
         <ul className='nav-list'>
@@ -20,7 +21,7 @@ const Header = () => {
           <li className='nav-item'><a href="/acadamic">Acadamic</a></li>
           <li className='nav-item'><a href="/Administraion">Administration</a></li>
           <li className='nav-item'><a href="/contact">Contact</a></li>
-          <li className='nav-item'><a href="/Achivments">Archivements</a></li>
+          <li className='nav-item'><a href="/Achivments">Achievements</a></li>
           </ul>
       </nav>
       </div>
