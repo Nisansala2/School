@@ -11,7 +11,7 @@ const Administraion = () => {
         <h2>Welcome</h2>
       </div>
     <div className="principal-message">
-      <img src='/images/principle.jpg' alt="Principal" className="principal-image" />
+      <img src='/images/Principle.jpg' alt="Principal" className="principal-image" />
       <div className="message-content">
         <h3>Principle- Mr.Thilak Megahawatts</h3>
         <p>I consider it a great pleasure to send a message to the  web site of Athapaththukanda Vidyalaya, Matara which has a legacy of 65years.</p>
