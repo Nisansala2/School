@@ -17,15 +17,7 @@
     font-size: 35px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
-  .about-page{
-    background-image: url('C:\Users\Gamachchige\Desktop\react_new project\school\src\images\about.jpg');
-    background-attachment: fixed;
-    padding: 50px;
-    color: white;
-    font-size: 30px;
-    text-align: center;
-    background-position: 100px;
-  }
+  
   .detail{
     display: flex;
       align-items: center;
