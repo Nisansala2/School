@@ -37,10 +37,10 @@
  
  
   .aboutus{
-   
+    background-image: url("C:\Users\Gamachchige\Desktop\react_new project\school\src\images\news.jpg") ;
     height: 200px;
     background-attachment: fixed;
-    position: 200px;
+    position: 300px;
     background-repeat: repeat-x;
     background-size: cover;
     color: rgb(6, 50, 30);
