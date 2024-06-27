@@ -2,9 +2,13 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 
 const Acadamic = () =>{
+  const imgURL=process.env.PUBLIC_URL+ 'images/aca.jpg'
   return (
     <div>
-       <div className='aca-top'>
+       <div className='aca-top' style={{
+        backgroundImage:`URL(${imgURL})`,
+        
+       }}>
         <br/><br/><br/>
         
         <br/>

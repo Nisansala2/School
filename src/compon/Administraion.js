@@ -1,9 +1,13 @@
 import React from 'react';
 
 const Administraion = () => {
+  const imgURL=process.env.PUBLIC_URL+ 'images/sadmin.png'
   return (
     <div>
-      <div className='admin'>
+      <div className='admin' style={{
+        backgroundImage:`URL(${imgURL})`,
+       
+      }}>
         <h2>Welcome</h2>
       </div>
     <div className="principal-message">

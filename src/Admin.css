@@ -17,9 +17,9 @@
   padding: 40px;
 }
 .admin{
-  background-image: url('C:\Users\Gamachchige\Desktop\react_new project\school\src\images\sadmin.png');
+  
   background-attachment: fixed;
-  height: 150px;
+  height: 200px;
   text-align: center;
   color: white;
 }

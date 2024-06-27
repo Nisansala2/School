@@ -2,9 +2,17 @@
 import React from 'react';
 
 const About = () => {
+
+  const imgURL=process.env.PUBLIC_URL+ 'images/news.jpg'
   return (
     <div>
-      <div className='aboutus'>
+      <div className='aboutus' style={{
+        backgroundImage:`URL(${imgURL})`,
+        backgroundSize:'cover'
+      }}>
+        
+
+        
       <br/>
         <h2>About us</h2>
         <p>Known us Well</p>

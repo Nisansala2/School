@@ -5,10 +5,15 @@ import { Link } from 'react-router-dom';
 
 
 const Hom = () => {
+   const imgURL=process.env.PUBLIC_URL+ 'images/reschool.jpg'
   return(  
     <div>
      
-    <div className='home-page'>
+    <div className='home-page' style={{
+      backgroundImage:`URL(${imgURL})`,
+        backgroundSize:'cover'
+    }}>
+
       <br/>
       <br/><br/>
       <br/>
