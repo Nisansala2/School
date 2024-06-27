@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 
 const Hom = () => {
-   const imgURL=process.env.PUBLIC_URL+ 'images/reschool.jpg'
+   const imgURL=process.env.PUBLIC_URL+ 'images/reschool.JPG'
   return(  
     <div>
      
